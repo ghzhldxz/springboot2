@@ -8,9 +8,6 @@ spring:
     show-sql: true
   jackson:
     default-property-inclusion: non_null
-  redis:
-    host: 10.0.4.171
-    port: 6379
 server:
   context-path: /sell
 #logging:
