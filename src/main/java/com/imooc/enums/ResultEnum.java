@@ -46,6 +46,7 @@ public enum ResultEnum {
     LOGIN_FAIL(25, "登录失败, 登录信息不正确"),
 
     LOGOUT_SUCCESS(26, "登出成功"),
+    ORDER_NO_PAY(27, "订单未支付，不能点完成"),
     ;
 
     private Integer code;

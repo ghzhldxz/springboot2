@@ -35,4 +35,11 @@ public class OrderDetail {
 
     /** 商品小图. */
     private String productIcon;
+
+    public OrderDetail() {
+
+    }
+    public OrderDetail(Integer productQuantity) {
+        this.productQuantity = productQuantity;
+    }
 }
